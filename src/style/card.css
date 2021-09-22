@@ -1,0 +1,47 @@
+body{
+    background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+    overflow-x: hidden;
+    max-width: 100%;
+}
+  
+  .card {
+    width: 20rem;;
+  }
+  .card:hover{
+      box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  }
+
+  .overflow{
+    overflow: hidden;
+  }
+  .card-image-top{
+      transform: scale(1.0);
+      transition: transform 0.5s ease;
+      
+  }
+  .card-image-top:hover{
+    transform: scale(1.8);
+    
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .card {
+    position: inherit !important;
+    min-width: 300px !important;
+    min-height: 700px;
+    margin-right:102px;
+    margin-top:20px;
+    flex: 0 0 33.333333%;
+  }
+  .filteredContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  .title{
+    margin-bottom: 10px;
+  }
+ 
