@@ -3,7 +3,6 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import InputGroup from 'react-bootstrap/InputGroup'
 import FormControl from 'react-bootstrap/FormControl'
-import Scroll from './Scroll';
 import SearchList from './SearchList';
 import "../../style/card.css";
 import { FaSearch } from 'react-icons/fa';
@@ -34,11 +33,9 @@ function SearchInput({ details }) {
 
   function searchList() {
     return (
-      <Scroll>
         <Row>
           <SearchList filteredCustomers={filteredCustomers} />
         </Row>
-      </Scroll>
     );
   }
 
@@ -49,7 +46,7 @@ function SearchInput({ details }) {
       </Row>
       <Row>
         <Col>
-          <InputGroup className="mb-3">
+          <InputGroup className="mb-3 input-group">
             <InputGroup.Text id="basic-addon1" ><FaSearch /></InputGroup.Text>
             <FormControl
               placeholder="Customer's Name"

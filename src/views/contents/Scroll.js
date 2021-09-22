@@ -1,12 +1,13 @@
-import React from 'react';
+// import React from 'react';
 
-//components inside rendered with height of 100 viewport height and turn them into scrollable content.
-const Scroll = (props) => {
-  return (
-    <div style={{ overflowY: 'scroll', height: '100vh' }}>
-      {props.children}
-    </div>
-  );
-}
+// //components inside rendered with height of 100 viewport height and turn them into scrollable content.
+// const Scroll = (props) => {
+//   return (
+//     // <div style={{ overflowY: 'scroll', height: '100vh' }}>
+//     <div>
+//       {props.children}
+//     </div>
+//   );
+// }
 
-export default Scroll;
+// export default Scroll;
